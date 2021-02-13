@@ -70,7 +70,6 @@ app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
         name: 'Omar Ashraf',
-        textAbout: 'I am a student in the 5th semester at HTW-Berlin and search for an internship as a Backend developer.'
     })
 })
 
